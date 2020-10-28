@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="glad\src\glad.cpp">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="glad\src\glad_egl.cpp">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="video.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="glad">
+      <UniqueIdentifier>{945aa93c-776f-4b18-8da8-265d8549cfe4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glad\include\glad\glad.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="glad\include\glad\glad_egl.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="glad\include\KHR\khrplatform.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="video.h" />
+  </ItemGroup>
+</Project>
